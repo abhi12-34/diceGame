@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.dice{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.intro{
+    height: 70vh;
+    width: 90vw;
+    background-color: rgb(225, 247, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.intro img{
+    height: 70%;
+    width: 45%;
+    background-repeat : no repeat;
+    background-size: cover;
+}
+.dice_game{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.dice_game button{
+  background-color: rgba(0, 0, 0, 0.267);
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  height: 27px;
+  margin-top: 4px;
+  width: 100px;
+}
+.dice_game button:hover{
+  background-color: rgba(58, 39, 39, 0.973);
+  color: white;
+  scale: 1.002;
+  transition: ease-in-out 0.5s;
+}
